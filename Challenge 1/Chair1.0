@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Chair1.0
-//Last modified: Wed, Aug 23, 2023 10:13:09 PM
+//Last modified: Wed, Aug 23, 2023 10:20:38 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "5.0.0.1";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202110272215-ad32f8f1e6";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22621)";
-fileInfo "UUID" "3B06D397-4212-4AE8-090B-349293E3566D";
+fileInfo "UUID" "E4E706A5-46B0-DE38-2930-348593A9D7CE";
 createNode transform -s -n "persp";
 	rename -uid "FFBC89BE-4517-74D4-5307-DC9DCF5339B9";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -24.409940228653021 0.85053172421717349 24.286450357723947 ;
-	setAttr ".r" -type "double3" 13.461647272631817 1026.5999999999597 0 ;
+	setAttr ".t" -type "double3" -31.749215668368876 7.7203875596528135 -0.44522737678082436 ;
+	setAttr ".r" -type "double3" 2.0616472726230994 982.59999999992647 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "9B52FC37-48B1-38DE-B946-ADAE2597749C";
 	setAttr -k off ".v" no;
