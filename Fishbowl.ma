@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Fishbowl.ma
-//Last modified: Mon, Oct 09, 2023 05:17:53 AM
+//Last modified: Wed, Oct 18, 2023 06:37:25 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "5.0.0.1";
@@ -10,19 +10,19 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202110272215-ad32f8f1e6";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22621)";
-fileInfo "UUID" "006D1235-4135-3C23-201D-44BCB7339E72";
+fileInfo "UUID" "A8520584-443E-84D3-1EDF-6E98AE902490";
 createNode transform -s -n "persp";
 	rename -uid "7F1433A8-49CE-D615-2948-EBB1D3ABBBD1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 5.6509652868631264 64.771351644269274 22.129749699581332 ;
-	setAttr ".r" -type "double3" -7.5383527720910344 716.19999999997583 1.4941699870296167e-16 ;
+	setAttr ".t" -type "double3" -2.3219392418269607 110.33738100054917 44.77777046393139 ;
+	setAttr ".r" -type "double3" -42.338352772090985 709.39999999996496 3.235772000890729e-15 ;
 	setAttr ".rp" -type "double3" 1.4210854715202004e-14 3.5527136788005009e-15 -5.6843418860808015e-14 ;
 	setAttr ".rpt" -type "double3" -1.3223382021443809e-14 2.2514568273232398e-14 4.2576209366756689e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "AA228EB9-4E09-3102-038B-40B0E0912EDD";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 31.271901920269325;
+	setAttr ".coi" 73.746153603229516;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
